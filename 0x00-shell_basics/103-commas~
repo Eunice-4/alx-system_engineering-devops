@@ -1,2 +1,0 @@
-#!/bin/bash
-ls -p | sort -t/ -k1,1d -k1.1,1
