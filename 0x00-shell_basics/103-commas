@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo ".,"; ls -pd .[!.]* [[:alnum:]]* | sort -t/ -k1,1d -k1.1,1 | tr '\n' ',') | tr -d '\n' && echo
+ls -xamp
